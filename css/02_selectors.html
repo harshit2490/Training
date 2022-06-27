@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Selectors</title>
+    <style>
+      /* Element Selectors */
+      body {
+        background-color: #333;
+      }
+
+      h3 {
+        color: chartreuse;
+      }
+
+      /* . is for classes */
+      .primary-heading {
+        color: blue;
+      }
+
+      /* # is for IDs */
+      #welcome {
+        background-color: #f4f4f4;
+      }
+
+      /* Multiple Selectors */
+      #welcome,
+      #about {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+
+      /* Nested Selectors */
+      #welcome p {
+        font-size: 20px;
+        color: indianred;
+      }
+
+      #about {
+        color: white;
+      }
+
+      .outer {
+        color: red;
+      }
+
+      .inner {
+        color: yellow;
+      }
+
+      .font-class {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="welcome">
+      <h2 class="primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod qui iusto
+        perferendis nisi officia quidem ad enim maiores animi maxime.
+      </p>
+    </div>
+    <div id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+        laudantium voluptatum dolorum iure, eos et distinctio porro provident ut
+        assumenda.
+      </p>
+    </div>
+    <div class="outer">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, officiis.
+      </p>
+      <div class="inner">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, hic?
+        </p>
+      </div>
+
+      <div class="outer font-class">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dicta!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
