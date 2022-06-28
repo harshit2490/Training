@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Quicksand', sans-serif;
+        background-image: linear-gradient(0deg, #920055, #f141a8, #920055);
+        background-size: cover;
+        line-height: 2;
+      }
+
+      #container {
+        margin: 30px auto;
+        margin-top: 40px;
+        width: 500px;
+        padding: 20px;
+      }
+
+      .inner-container {
+        background: #fff;
+        padding: 20px 30px;
+        color: #333;
+        border-radius: 15px;
+      }
+
+      .inner-container h1{
+        text-align: center;
+      }
+      
+      .inner-container p{
+        text-align: center;
+      }
+
+      .form-group{
+        margin-top: 18px;
+      }
+
+      .inner-container .form-group label {
+        display: block;
+      }
+      
+      .inner-container .form-group input {
+        width: 100%;
+        padding: 12px;
+        border: #9b507ca4 1px solid;
+        border-radius: 20px;
+      }
+
+      .inner-container button{
+        display: block;
+        margin-top: 25px;
+        padding: 15px;
+        width: 100%;
+        border: #333 1px solid;
+        border-radius: 20px;
+        background: #c40072;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .inner-container button:hover {
+        background: #920055
+      }
+
+      .inner-container .btn-text {
+        font-size: 14px;
+        margin-top: 22px;
+        margin-bottom: 8px;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 10px;
+        color: #fff;
+      }
+
+      footer a {
+        color:#ffcae9;
+      }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+      <div class="inner-container">
+        <h1>Sign Up</h1>
+        <p>It's free and only takes a minute...</p>
+
+        <form action="process.php">
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" name="firstName" id="first-name" />
+            </div>            
+            
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="lasttName" id="last-name" />
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+            </div>
+            
+            <div class="form-group">
+                <label for="password2">Confirm Password</label>
+                <input type="password" name="pasword2" id="password2" />
+            </div>
+
+            <button type="submit" class="btn">Sign Up</button>
+            
+            <p class="btn-text">
+                By clicking the Sign Up button, you agree to our
+                <a href="#">Terms & Conditions</a> and 
+                <a href="#">Privacy Policy</a>
+            </p>
+        </form>
+      </div>
+        <footer>
+            <p>Already have an account? <a href="#">Login Here</a></p>
+        </footer>
+    </div>
+</body>
+</html>
