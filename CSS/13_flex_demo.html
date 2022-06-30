@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Demo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+
+        #main {
+            display: flex;
+            min-height: calc(100vh - 40vh);
+        }
+
+        #article {
+            flex: 1;
+        }
+
+        #aside {
+            flex: 0 0 20vw;
+            background: beige;
+        }
+
+        #header,
+        #footer,
+        #article,
+        #aside {
+            padding: 2em;
+        }
+
+        #header{
+            background: #333;
+            height: 15vh;
+        }
+        
+        #footer{
+            background: #333;
+            height: 10vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">Header</header>
+    <div id="main">
+        <article id="article">Article</article>
+        <aside id="aside">Aside</aside>
+    </div>
+    <footer id="footer">Footer</footer>
+</body>
+
+</html>
