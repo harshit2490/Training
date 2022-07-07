@@ -26,13 +26,13 @@ function App() {
     <div className="app">
       <div className="page-margin">
         <div className="search">
-          <h2>Weather Forcaste</h2>
+          <h2>Weather Forecast</h2>
           <br />
           <input   // INPUT Button
             type="text"
             placeholder="Enter Location"
             onChange={inputHandler} /><br /><br />
-          <button onClick={searchHandler}>Search</button>
+          <button className='button' onClick={searchHandler}>Search</button>
         </div>
 
         {weather && (
