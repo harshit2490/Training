@@ -18,6 +18,10 @@ function App() {
       .catch((err) => console.log(err));
   }, []);
 
+  // Counts number of changes made in input.. 
+  useEffect(() => {
+    console.log("Component Did Update");  // count shows on console...
+  }, [input]);
 
   const inputHandler = (e) => {
     setInput(e.target.value);
@@ -31,7 +35,7 @@ function App() {
       .catch((err) => console.log(err));
   };
 
-  console.log(weather);
+  // console.log(weather);
 
   return (
     <div className="app">
