@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(0, 27, 52);
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 8vh;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(58, 58, 58);
+    color: white;
+  }
