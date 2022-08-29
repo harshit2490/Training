@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "title": "HTML5 & CSS3 Series",
+        "image": "https://www.filepicker.io/api/file/INZsH6XtRIqQqxvYGP6Q",
+        "description": "Everything you need to build fast and stunning websites with HTML5 and CSS3 in one bundle.",
+        "category": "FrontEnd",
+        "duration": "1 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 2,
+        "title": "React Native Series",
+        "image": "https://www.filepicker.io/api/file/4C6yPDywSUeWYLyg1h9G",
+        "description": "Everything you need to build and distribute professional-quality apps with React Native.",
+        "category": "FrontEnd",
+        "duration": "3 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 3,
+        "title": "TypeScript Course",
+        "image": "https://file-uploads.teachablecdn.com/4c16c4adca0d401bb4295cfbda05ecf1/e1c0e6c521414dbfae2fe1ca931c2f8f",
+        "description": "Learn to make your JavaScript applications scale. It is designed for the development of large applications and transpiles to JavaScript.",
+        "category": "BackEnd",
+        "duration": "4.5 hr",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 4,
+        "title": "C# Mastery Series",
+        "image": "https://www.filepicker.io/api/file/Dk8I3q9CSNa8KkINL0yA",
+        "description": "Master C# - one of the world's most versatile programming languages.",
+        "category": "Programming",
+        "duration": "7 hr",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 5,
+        "title": "Docker Course",
+        "image": "https://www.filepicker.io/api/file/el6Vw2cNTxeTWzrUaxO7",
+        "description": "Everything you need to master Docker in one clear, concise, and practical course.",
+        "category": "SoftwareEngineering",
+        "duration": "2.5 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 6,
+        "title": "Complete Python Mastery",
+        "image": "https://www.filepicker.io/api/file/BFMMlbcQvml9HSqXcvNp",
+        "description": "Everything you need to program in Python in one course (includes 3 real-world projects).",
+        "category": "Programming",
+        "duration": "5 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 7,
+        "title": "Redux Course",
+        "image": "https://www.filepicker.io/api/file/cWlkfXnMQKepNeIaRItV",
+        "description": "Go from beginner to expert in 6 hours. Everything you need to build modern apps with Redux.",
+        "category": "FrontEnd",
+        "duration": "3.5 hr",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 8,
+        "title": "Complete SQL Mastery",
+        "image": "https://www.filepicker.io/api/file/RL4kFbu1SMiCIeLAtWX3",
+        "description": "Everything you need to design and query databases in one course.",
+        "category": "BackEnd",
+        "duration": "2.5 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 9,
+        "title": "Git Course",
+        "image": "https://www.filepicker.io/api/file/tsmP4fdkSmKaiez6t2jl",
+        "description": "Everything you need to know to use Git &amp; GitHub to work effectively as a team.",
+        "category": "SoftwareEngineering",
+        "duration": "2 hr",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 10,
+        "title": "C++ Series",
+        "image": "https://cdn.filestackcontent.com/lkYCN9UvRNFaLzywghPu",
+        "description": "Master Modern C++: Go from Novice to Professional. Everything you need to code in C++ in one bundle!",
+        "category": "Programming",
+        "duration": "6 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 11,
+        "title": "Angular 4: Beginner to Pro",
+        "image": "https://www.filepicker.io/api/file/stccKo5kR5iZY7CtLFvi",
+        "description": "Build professional, interactive apps with Angular - the most popular framework for building web apps. ",
+        "category": "FrontEnd",
+        "duration": "8 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 12,
+        "title": "Design Pattern Series",
+        "image": "https://www.filepicker.io/api/file/rPqIrBIbRZsdQhtoGnjp",
+        "description": "Learn to write maintainable and extensible code. Become a senior software engineer.",
+        "category": "SoftwareEngineering",
+        "duration": "3.5 hr",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 13,
+        "title": "Node.js Course",
+        "image": "https://www.filepicker.io/api/file/nlMKa4JeSBysXoj7pa90",
+        "description": "Learn to build highly-scalable, fast and secure RESTful APIs with Node, Express, and MongoDB.",
+        "category": "BackEnd",
+        "duration": "9 hr",
+        "ratings": "⭐⭐⭐⭐⭐⭐⭐"
+    }
+]
