@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+}
+
+.counter button,
+p {
+  padding: 20px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.message button
+ {
+  padding: 20px;
+  font-weight: bolder;
+  font-size: larger;
+}
