@@ -1,0 +1,24 @@
+.body {
+  background-color: rgb(2, 0, 91);
+}
+.panel {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.panel-blue {
+  border: 1px solid #0087ff;
+  background-color: #ddedff;
+}
+.panel-yellow {
+  border: 1px solid #ffbd00;
+  background-color: #efe0b2;
+}
+.panel-pink {
+  border: 1px solid #f84f7f;
+  background-color: #fad2e1;
+}
+.panel-purple {
+  border: 1px solid #7f51f4;
+  background-color: #dfccff;
+}
